@@ -1,0 +1,31 @@
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-button{
+  background-color: #eeeeee;
+  border: none;
+  color: #5E5E5E;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.nav-active{
+  background-color: #dbdbdb;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
